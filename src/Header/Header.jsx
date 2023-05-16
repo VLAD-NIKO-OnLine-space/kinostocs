@@ -18,8 +18,8 @@ const Header = () => {
         <div className={styles.main}>
             <div className={styles.content}>
                 <div className={styles.logoWrapper}>
-                    <img src="/logo.svg" alt="logo" className={styles.logo}/>
-                    <p>KINO-STOCS</p>
+                    <img src="/478.gif" alt="logo" className={styles.logo}/>
+                    <p className={styles.par}>KINO-STOCS</p>
                 </div>
                 <div className={styles.links}>
                     {links.map(e => <HeaderLinks link={e} key={e.id}/>)}        

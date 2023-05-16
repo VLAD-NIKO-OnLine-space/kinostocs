@@ -29,3 +29,11 @@
     align-items: center;
     gap: 0 10px;
 }
+
+.logo{
+    width: 25px;
+}
+
+.par{
+    margin: 0;
+}

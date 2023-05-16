@@ -1,27 +1,24 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from './Slider.module.css';
-import { Pagination, Autoplay, EffectFade, EffectCards } from 'swiper';
+import { Pagination, Autoplay, EffectFade, EffectCards, EffectCube } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
+import 'swiper/css/effect-cube';
 import { sliderPreview } from '../../utils/sliderPreview';
 
 
 const Slider = () => {
 
     return (
-
-
-    
         <Swiper
-            modules={[Pagination, Autoplay, EffectFade, EffectCards]}
+            modules={[Pagination, Autoplay, EffectFade, EffectCube]}
             className={styles.swiper}
             spaceBetween={0}
-            effect="fade"
-            autoplay={{delay: 3000, disableOnInteraction: false}}
-            pagination={{ clickable: true, type: 'progressbar', color: '#fff'}}
+            effect="cube"
+            autoplay={{delay: 4000, disableOnInteraction: false}}
+            pagination={{ clickable: true}}
             slidesPerView={1}
         >
             {sliderPreview.map(e => <SwiperSlide key={e.id}>
