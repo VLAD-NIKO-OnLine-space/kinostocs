@@ -1,0 +1,14 @@
+.swiper{
+    max-width: 1200px;
+    display: flex;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.imgPreview{
+    border-radius: 5px;
+    max-width: 1200px;
+    height: auto;
+    pointer-events: none;
+}

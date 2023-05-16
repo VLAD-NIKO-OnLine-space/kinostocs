@@ -4,11 +4,13 @@ import MainPage from '../Pages/MainPage/MainPage';
 import Searchpage from '../Pages/SearchPage/Searchpage';
 import SoonInCinemaPage from '../Pages/SoonInCinemaPage/SoonInCinemaPage';
 import FavouritesPage from '../Pages/FavouritesPage/FavouritesPage';
+import KinostocsPage from '../Pages/KinostocsPage/KinostocsPage';
 
 
 const AppRouter = () => {
     return (
         <Routes>
+            <Route path='/kinostocs' element = {<KinostocsPage/>}></Route>
             <Route path='/main' element = {<Searchpage/>}></Route>
             <Route path='/mainpage' element = {<MainPage/>}></Route>
             <Route path='/favourites' element = {<FavouritesPage/>}></Route>

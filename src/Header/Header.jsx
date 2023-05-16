@@ -7,10 +7,11 @@ const Header = () => {
     
 
     const links = [
-        {id: 1, title: 'Поиск фильма', to: '/main'},
-        {id: 2, title: 'Топ 250 фильмов', to: '/mainpage'},
-        {id: 3, title: 'Скоро в кино', to: '/soonincinema'},
-        {id: 4, title: 'Избранное', to: '/favourites'},
+        {id: 1, title: 'Главная', to: '/kinostocs'},
+        {id: 2, title: 'Поиск фильма', to: '/main'},
+        {id: 3, title: 'Топ 250 фильмов', to: '/mainpage'},
+        {id: 4, title: 'Скоро в кино', to: '/soonincinema'},
+        {id: 5, title: 'Избранное', to: '/favourites'},
     ]
 
     return (
