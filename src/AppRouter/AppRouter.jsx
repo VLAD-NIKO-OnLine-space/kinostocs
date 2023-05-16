@@ -15,7 +15,7 @@ const AppRouter = () => {
             <Route path='/mainpage' element = {<MainPage/>}></Route>
             <Route path='/favourites' element = {<FavouritesPage/>}></Route>
             <Route path='/soonincinema' element = {<SoonInCinemaPage/>}></Route>
-            <Route path="*" element={<Navigate to="/main" replace />}/>
+            <Route path="*" element={<Navigate to="/kinostocs" replace />}/>
         </Routes>
     );
 };

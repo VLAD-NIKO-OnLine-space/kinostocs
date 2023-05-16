@@ -1,7 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from './Slider.module.css';
-import { Pagination, Autoplay, EffectFade, EffectCards, EffectCube } from 'swiper';
+import { Pagination, Autoplay, EffectFade, EffectCube } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/pagination';
