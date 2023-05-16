@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    gap: 0 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.page{
+    margin: 0;
+    color: #00fafa;
+    font-size: 20px;
+    font-weight: 700;
+}

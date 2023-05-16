@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.modalImg{
+    width: 300px;
+}
+
+.modalContainer{
+    display: flex;
+    flex-direction: column;
+}

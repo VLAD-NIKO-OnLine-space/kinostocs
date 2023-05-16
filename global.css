@@ -1,0 +1,24 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    box-sizing: inherit;
+    background-color: #202124;
+    color: #f0f8ff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.045em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+#root{
+    max-width: 1200px;
+    padding: 10px;
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,11 @@
+API [
+
+    https://kinopoiskapiunofficial.tech/documentation/api/#/films/get_api_v2_2_films__id_
+
+
+    https://imdb-api.com/api#Top250Movies-header - не использую, как возможный вариант
+]
+
+color [
+    color: #00fafa;
+]

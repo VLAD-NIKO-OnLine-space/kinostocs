@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    justify-content: center;
+}
+
+.films{
+    max-width: 1200px;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.nullResult{
+    text-align: center;
+    text-transform: lowercase;
+    font-style: italic;
+    opacity: 0.9;
+    letter-spacing: 0.045em;
+    font-size: 16px;
+}
+
+.fon{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -999;
+    pointer-events: none;
+    opacity: 0.6;
+}

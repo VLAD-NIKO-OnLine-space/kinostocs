@@ -1,0 +1,36 @@
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;    
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 100;
+    display: none;
+}
+
+.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: opacity 0.3s linear;
+}
+
+
+.content{
+    background-color: #202124;
+    display: flex;
+    justify-content: space-between;
+    min-width: 60%;
+    min-height: 70%;
+    padding: 20px 30px;
+    align-items: center;
+    color: #fff;
+    border-radius: 35px;
+    box-shadow: rgba(0, 250, 250, 0.2) 0px 7px 29px 0px;
+}
+
+@keyframes opacity {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
