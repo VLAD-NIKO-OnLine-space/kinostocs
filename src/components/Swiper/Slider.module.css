@@ -1,5 +1,5 @@
 .swiper{
-    max-width: 1200px;
+    max-width:1100px;
     display: flex;
     background-color: transparent;
     cursor: pointer;
@@ -8,7 +8,10 @@
 
 .imgPreview{
     border-radius: 5px;
-    max-width: 1200px;
-    height: auto;
+    max-width: 1100px;
+    user-select: none;
     pointer-events: none;
+    position: relative;
+    z-index: -10;
+    object-fit: contain;
 }
