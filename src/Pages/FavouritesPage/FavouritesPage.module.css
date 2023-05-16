@@ -25,4 +25,5 @@
     flex-direction: column;
     max-width: 1100px;
     align-items: center;
+    padding-bottom: 50px;
 }
