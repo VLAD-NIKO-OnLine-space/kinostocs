@@ -5,6 +5,7 @@
     top: 0;
     background-color: #191919;
     box-shadow: rgba(0, 250, 250, 0.1) 0px 5px 20px;
+    z-index: 100;
 }
 .content{
     max-width: 1200px;

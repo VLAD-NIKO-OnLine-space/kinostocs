@@ -1,0 +1,17 @@
+.link{
+    text-decoration: none;
+    color: #00fafa;
+    opacity: 0.4;
+    font-size: 14px;
+    transition: 0.3s all linear;
+}
+
+.link:hover{
+    opacity: 0.8;
+    transform: scale(110%);
+    filter:  drop-shadow(0 0 0.8em rgba(0, 250, 250, 0.5));
+}
+
+.link:active{
+    transform: translateY(2px);
+}

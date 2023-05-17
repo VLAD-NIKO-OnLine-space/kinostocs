@@ -9,7 +9,10 @@ import 'swiper/css/effect-cube';
 import { sliderPreview } from '../../utils/sliderPreview';
 
 
+
 const Slider = () => {
+
+
 
     return (
         <Swiper
@@ -17,9 +20,13 @@ const Slider = () => {
             className={styles.swiper}
             spaceBetween={0}
             effect="cube"
-            autoplay={{delay: 4000, disableOnInteraction: false}}
+            destroyed='false'
+
+            autoplay={{delay: 4000, disableOnInteraction: false, running: true}}
             pagination={{ clickable: true}}
             slidesPerView={1}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
         >
             {sliderPreview.map(e => <SwiperSlide key={e.id}>
                 <img src={e.img} alt="img-preview" className={styles.imgPreview}/>

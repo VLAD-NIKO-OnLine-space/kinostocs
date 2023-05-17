@@ -43,3 +43,10 @@ export const SearchFilm = async (input) => {
     const responce = await axios.get(url,headers)
     return responce.data.films
 }
+
+
+export const getPopulapFilms = async (page) => {
+    const url = `https://kinopoiskapiunofficial.tech/api/v2.2/films/top?type=TOP_100_POPULAR_FILMS&page=${page}`
+    const responce = await axios.get(url, headers)
+    return responce.data.films
+}

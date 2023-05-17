@@ -4,6 +4,8 @@
     background-color: transparent;
     cursor: pointer;
     border-radius: 5px;
+    position: relative;
+    margin-bottom: 30px;
 }
 
 .imgPreview{

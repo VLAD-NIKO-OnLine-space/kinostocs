@@ -1,0 +1,25 @@
+.h1{
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #00fafa;
+    letter-spacing: 0.045em;
+    font-size: 24px;
+}
+
+.container{
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.h1 span{
+    animation: bull 0.7s infinite linear alternate;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+@keyframes bull {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
