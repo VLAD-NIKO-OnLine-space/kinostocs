@@ -15,24 +15,24 @@ const Slider = () => {
 
 
     return (
-        <Swiper
-            modules={[Pagination, Autoplay, EffectFade, EffectCube]}
-            className={styles.swiper}
-            spaceBetween={0}
-            effect="cube"
-            destroyed='false'
+        <div className={styles.main}>
+            <Swiper
+                modules={[Pagination, Autoplay, EffectFade, EffectCube]}
+                className={styles.swiper}
+                spaceBetween={0}
+                effect="cube"
+                destroyed='false'
 
-            autoplay={{delay: 4000, disableOnInteraction: false, running: true}}
-            pagination={{ clickable: true}}
-            slidesPerView={1}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-        >
-            {sliderPreview.map(e => <SwiperSlide key={e.id}>
-                <img src={e.img} alt="img-preview" className={styles.imgPreview}/>
-            </SwiperSlide>)}
+                autoplay={{delay: 4000, disableOnInteraction: false, running: true}}
+                pagination={{ clickable: true}}
+                slidesPerView={1}
+            >
+                {sliderPreview.map(e => <SwiperSlide key={e.id}>
+                    <img src={e.img} alt="img-preview" className={styles.imgPreview}/>
+                </SwiperSlide>)}
 
-        </Swiper>
+            </Swiper>
+        </div>
        
     );
 };
