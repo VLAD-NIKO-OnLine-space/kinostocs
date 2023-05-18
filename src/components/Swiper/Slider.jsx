@@ -22,7 +22,6 @@ const Slider = () => {
                 spaceBetween={0}
                 effect="cube"
                 destroyed='false'
-
                 autoplay={{delay: 4000, disableOnInteraction: false, running: true}}
                 pagination={{ clickable: true}}
                 slidesPerView={1}

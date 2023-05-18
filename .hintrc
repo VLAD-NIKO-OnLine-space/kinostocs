@@ -9,7 +9,8 @@
         "ignore": [
           "-webkit-text-size-adjust",
           "user-select",
-          "scrollbar-width"
+          "scrollbar-width",
+          "scroll-snap-stop"
         ]
       }
     ]
