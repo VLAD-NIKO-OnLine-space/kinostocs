@@ -28,14 +28,16 @@ const KinostocsPage = () => {
     return (
         <div>
             <img src="/mainfon.jpg" alt="" className={styles.fon}/>
-            {/* <Slider/>
+            {/* <Slider/> */}
 
             {loading 
             ? <Loading/>
-            : <><KinostoctPageContent films={films}/><Footer/></>
+            : <><KinostoctPageContent films={films}/>
+            <Footer/>
+            </>
             }
             
-             */}
+            
         </div>
     );
 };

@@ -57,6 +57,7 @@
     gap: 30px;
     margin: 0 auto;
     margin-bottom: 40px;
+    align-items: center;
 }
 
 .contacts{
@@ -74,4 +75,11 @@
 
 .icon:hover{
     opacity: 0.6;
+}
+
+@media (max-width: 745px) {
+    .navigation{
+        flex-direction: column;
+        gap: 20px 0;
+    }
 }
