@@ -8,3 +8,21 @@
     color: rgba(0, 0, 0, 0.8);
     border: 1px solid #00fafa;
 }
+
+@media (max-width: 720px) {
+    .MyInput{
+        width: 200px;
+    }
+    .MyInput::placeholder{
+        font-size: 12px;
+    }
+}
+
+/* @media (max-width: 435px) {
+    .MyInput{
+        width: 00px;
+    }
+    .MyInput::placeholder{
+        font-size: 12px;
+    }
+} */

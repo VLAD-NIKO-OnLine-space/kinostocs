@@ -21,7 +21,6 @@ const SearchBlock = ({value, setValue, setSearchResult, setNullResult, setloadin
 
     return (
         <div className={styles.wrapper}>
-
             <MyInput
                 value={value}
                 onChange = {e => setValue(e.target.value)}

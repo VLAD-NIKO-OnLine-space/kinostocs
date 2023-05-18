@@ -12,3 +12,10 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+@media (max-width: 540px) {
+    .container{
+        gap: 10px;
+        flex-direction: column;
+    }
+}

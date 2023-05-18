@@ -46,3 +46,16 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+@media (max-width: 720px) {
+    .wrapper{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 435px) {
+    .wrapper{
+        flex-direction: column;
+        gap: 15px 0;
+    }
+}
