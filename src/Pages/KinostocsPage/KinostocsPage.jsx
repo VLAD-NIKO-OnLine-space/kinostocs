@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Slider from '../../components/Swiper/Slider';
-import FilmList from '../../components/FilmList/FilmList';
-import Pagination from '../../components/Pagination/Pagination';
 import { getPopulapFilms } from '../../Service/serviceFilf';
-import styles from './KinostocsPage.module.css'
+import styles from './KinostocsPage.module.css';
 import Loading from '../../UI/Loading/Loading';
 import KinostoctPageContent from '../../components/KinostoctPageContent/KinostoctPageContent';
 import Footer from '../../Footer/Footer';
@@ -27,20 +25,17 @@ const KinostocsPage = () => {
     }, [])
     
 
-    
-
-
     return (
         <div>
             <img src="/mainfon.jpg" alt="" className={styles.fon}/>
-            <Slider/>
+            {/* <Slider/>
 
             {loading 
             ? <Loading/>
             : <><KinostoctPageContent films={films}/><Footer/></>
             }
             
-            
+             */}
         </div>
     );
 };
