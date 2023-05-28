@@ -1,7 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from './Slider.module.css';
-import { Pagination, Autoplay, EffectFade, EffectCube } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/pagination';
@@ -12,17 +12,13 @@ import { sliderPreview } from '../../utils/sliderPreview';
 
 const Slider = () => {
 
-
-
     return (
         <div className={styles.main}>
             <Swiper
-                modules={[Pagination, Autoplay, EffectFade, EffectCube]}
+                modules={[Pagination, Autoplay]}
                 className={styles.swiper}
                 spaceBetween={0}
-                effect="cube"
-                destroyed='false'
-                autoplay={{delay: 4000, disableOnInteraction: false, running: true}}
+                autoplay={{running: true, delay: 4000, disableOnInteraction: false} }
                 pagination={{ clickable: true}}
                 slidesPerView={1}
             >
@@ -35,7 +31,6 @@ const Slider = () => {
        
     );
 };
-
 
 
 export default Slider;

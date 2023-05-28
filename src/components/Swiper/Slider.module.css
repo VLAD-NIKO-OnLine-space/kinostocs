@@ -24,7 +24,18 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    transform: translateY(-200%);
+    animation: appearance 1s linear forwards;
+    opacity: 0;
 }
+
+@keyframes appearance {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 @media (max-width: 1150px) {
     .main{
