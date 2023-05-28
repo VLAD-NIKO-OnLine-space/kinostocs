@@ -302,3 +302,65 @@ h5{
 .delBtnActive{
     display: flex;
 }
+
+
+@media (max-width: 1000px) {
+    .wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 180px;
+    }
+    .btnContainer{
+        justify-content: center;
+    }
+    .nameRu,
+    .genres,
+    .countries,  
+    .filmLength,
+    .year,
+    .description,
+    .amount{
+        text-align: center;
+    }
+    .nameRu{
+        max-width: none;
+        margin-bottom: 5px;
+    }
+    .genres{
+        font-size: 14px;
+    }
+    .amount{
+        margin-bottom: 30px;
+    }
+    .modalImg{
+        margin-right: 0;
+    }
+    .exit{
+        top: 200px;
+        right: 40px;    
+    }
+}
+
+
+@media (max-width: 555px) {
+    .wrapper{
+        padding-top: 240px;
+    }
+    .description{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .nameRu{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .exit{
+        top: 250px;
+        left: 50%;    
+    }
+    .btnContainer{
+        flex-direction: column;
+    }
+
+}

@@ -5,7 +5,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
-    z-index: 100;
+    z-index: 300;
     display: none;
 }
 
@@ -33,4 +33,22 @@
 @keyframes opacity {
     0%{opacity: 0;}
     100%{opacity: 1;}
+}
+
+
+
+@media (max-width: 1000px) {
+    .content{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        border-radius: 0;
+        justify-content: center;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 20px 0;
+    }
+    
 }
